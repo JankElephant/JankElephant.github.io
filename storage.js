@@ -3,3 +3,6 @@
 
 //show cookies
 // document.getElementById("output").textContent = document.cookie;
+
+
+localStorage.setItem("testthing", "seventy");
