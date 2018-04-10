@@ -41,7 +41,7 @@ a {
   /* display: inline-block; */
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-resolution: 100dpi) {
   .item-box {
     width: 45%;
     font-size: 30px;
