@@ -8,7 +8,11 @@ body {
 }
 
 .box-holder {
+  width: 1000px;
   font-size: 0px;
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 1000px;
 }
 
 .item-box {
@@ -23,9 +27,19 @@ body {
 
   cursor: pointer;
   background-color: #dddddd;
-  width: 400px;
+  width: 20%;
   padding: 8px 15px;
   margin: 1px;
   font-size: 16px;
-  display: inline-block;
+  /* display: inline-block; */
+}
+
+@media screen and (max-width: 500px) {
+  .item-box {
+    width: 100%;
+  }
+  .box-holder {
+    width: 100%;
+    max-height: none;
+  }
 }
