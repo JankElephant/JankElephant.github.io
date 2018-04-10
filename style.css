@@ -34,12 +34,12 @@ body {
   /* display: inline-block; */
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .item-box {
-    width: 100%;
+    width: 45%;
   }
   .box-holder {
     width: 100%;
-    max-height: none;
+    max-height: 3000px;
   }
 }
