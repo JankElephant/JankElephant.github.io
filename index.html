@@ -27,12 +27,14 @@
   <li>Add gifts for Katey definitely</li>
   <button onclick="toggle_hide()">Toggle Hide</button>
   <h4>Jump to...</h4>
-  <a href="#melee">Melee Weapons</a>
-  <a href="#ranged">Ranged Weapons</a>
-  <a href="#explosive">Explosive Weapons</a>
-  <a href="#novelty">Novelty Weapons</a>
+  <a href="#melee">Melee</a>
+  <a href="#ranged">Ranged</a>
+  <a href="#explosive">Explosives</a>
+  <a href="#novelty">Novelty</a>
+  <a href="#clothes">Clothes</a>
+  <a href="#food">Food</a>
   <h3>Click on an item to mark it off</h3>
-  <h2 id="melee">Melee Weapons</h2>
+  <h2 id="melee" style="padding: 5px 5px 0;">Melee Weapons</h2>
   <p style="padding:5px;"><b>Head Trauma</b> - Use every type of melee weapon on a zombie. Killing is <b><u>not</u></b> reqiured.</p>
   <div class="box-holder">
     <div class="item-box" id="melee_2x4" onclick="mark_checked(this)">2x4</div>
@@ -59,7 +61,7 @@
     <div class="item-box" id="melee_cement_saw" onclick="mark_checked(this)">Cement Saw</div>
     <div class="item-box" id="melee_centurion_bust" onclick="mark_checked(this)">Centurion Bust</div>
     <div class="item-box" id="melee_chainsaw" onclick="mark_checked(this)">Chainsaw</div>
-    <div class="item-box" id="melee_chef's_knife" onclick="mark_checked(this)">Chef's Knife</div>
+    <div class="item-box" id="melee_chef's_knife" onclick="mark_checked(this)">Chef Knife</div>
     <div class="item-box" id="melee_coffee_pot" onclick="mark_checked(this)">Coffee Pot</div>
     <div class="item-box" id="melee_comedy_trophy" onclick="mark_checked(this)">Comedy Trophy</div>
     <div class="item-box" id="melee_computer_box" onclick="mark_checked(this)">Computer Case</div>
@@ -255,11 +257,170 @@
     <div class="item-box" id="novelty_whipped_cream" onclick="mark_checked(this)">Whipped Cream</div>
     <div class="item-box" id="novelty_zombie_mask" onclick="mark_checked(this)">Zombie Mask</div>
   </div>
+  <h2 id="clothes">Clothes</h2>
+  <p style="padding:5px;"><b>Chuck Greene: Cross Dresser?</b> - Change into all clothes.</p>
+  <div class="box-holder">
+    <div class="item-box" id="clothes_american_showman_helmet" onclick="mark_checked(this)">American Showman Helmet</div>
+    <div class="item-box" id="clothes_american_showman_jumpsuit" onclick="mark_checked(this)">American Showman Jumpsuit</div>
+    <div class="item-box" id="clothes_army_jacket_pants" onclick="mark_checked(this)">Army Jacket Pants</div>
+    <div class="item-box" id="clothes_aviator_glasses" onclick="mark_checked(this)">Aviator Glasses</div>
+    <div class="item-box" id="clothes_banana_hammock" onclick="mark_checked(this)">Banana Hammock</div>
+    <div class="item-box" id="clothes_bare_feet" onclick="mark_checked(this)">Bare Feet</div>
+    <div class="item-box" id="clothes_baseball_cap_sport" onclick="mark_checked(this)">Baseball Cap Sport</div>
+    <div class="item-box" id="clothes_baseball_cap_tir" onclick="mark_checked(this)">Baseball Cap TIR</div>
+    <div class="item-box" id="clothes_baseball_uniform" onclick="mark_checked(this)">Baseball Uniform</div>
+    <div class="item-box" id="clothes_basketball_high_tops" onclick="mark_checked(this)">Basketball High Tops</div>
+    <div class="item-box" id="clothes_basketball_uniform" onclick="mark_checked(this)">Basketball Uniform</div>
+    <div class="item-box" id="clothes_black_canvas_sneakers" onclick="mark_checked(this)">Black Canvas Sneakers</div>
+    <div class="item-box" id="clothes_black_cowboy_boots" onclick="mark_checked(this)">Black Cowboy Boots</div>
+    <div class="item-box" id="clothes_black_cowboy_hat" onclick="mark_checked(this)">Black Cowboy Hat</div>
+    <div class="item-box" id="clothes_black_cowboy_suit" onclick="mark_checked(this)">Black Cowboy Suit</div>
+    <div class="item-box" id="clothes_black_dress_shoes" onclick="mark_checked(this)">Black Dress Shoes</div>
+    <div class="item-box" id="clothes_black_military_boots" onclick="mark_checked(this)">Black Military Boots</div>
+    <div class="item-box" id="clothes_black_rimmed_glasses" onclick="mark_checked(this)">Black Rimmed Glasses</div>
+    <div class="item-box" id="clothes_blue_grey_work_overalls" onclick="mark_checked(this)">Blue Grey Work Overalls</div>
+    <div class="item-box" id="clothes_blue_hair" onclick="mark_checked(this)">Blue Hair</div>
+    <div class="item-box" id="clothes_blue_oyster_biker_outfit" onclick="mark_checked(this)">Blue Oyster Biker Outfit</div>
+    <div class="item-box" id="clothes_boardwalk_apparel" onclick="mark_checked(this)">Boardwalk Apparel</div>
+    <div class="item-box" id="clothes_bunny_slippers" onclick="mark_checked(this)">Bunny Slippers</div>
+    <div class="item-box" id="clothes_business_casual" onclick="mark_checked(this)">Business Casual</div>
+    <div class="item-box" id="clothes_casual_beachwear" onclick="mark_checked(this)">Casual Beachwear</div>
+    <div class="item-box" id="clothes_champion_jacket" onclick="mark_checked(this)">Champion Jacket</div>
+    <div class="item-box" id="clothes_default_boots" onclick="mark_checked(this)">Default Boots</div>
+    <div class="item-box" id="clothes_default_clothing" onclick="mark_checked(this)">Default Clothing</div>
+    <div class="item-box" id="clothes_default_face" onclick="mark_checked(this)">Default Face</div>
+    <div class="item-box" id="clothes_default_hair" onclick="mark_checked(this)">Default Hair</div>
+    <div class="item-box" id="clothes_cleats" onclick="mark_checked(this)">Cleats</div>
+    <div class="item-box" id="clothes_collegiate_ensemble" onclick="mark_checked(this)">Collegiate Ensemble</div>
+    <div class="item-box" id="clothes_dealer_outfit" onclick="mark_checked(this)">Dealer Outfit</div>
+    <div class="item-box" id="clothes_dealer_visor" onclick="mark_checked(this)">Dealer Visor</div>
+    <div class="item-box" id="clothes_fedora" onclick="mark_checked(this)">Fedora</div>
+    <div class="item-box" id="clothes_flip_flops" onclick="mark_checked(this)">Flip Flops</div>
+    <div class="item-box" id="clothes_flower_head_piece" onclick="mark_checked(this)">Flower Head Piece</div>
+    <div class="item-box" id="clothes_football_helmet" onclick="mark_checked(this)">Football Helmet</div>
+    <div class="item-box" id="clothes_football_uniform" onclick="mark_checked(this)">Football Uniform</div>
+    <div class="item-box" id="clothes_fortune_city_grey_shirt" onclick="mark_checked(this)">Fortune City Grey Shirt</div>
+    <div class="item-box" id="clothes_fortune_city_red_shirt" onclick="mark_checked(this)">Fortune City Red Shirt</div>
+    <div class="item-box" id="clothes_full_beard_moustache" onclick="mark_checked(this)">Full Beard Moustache</div>
+    <div class="item-box" id="clothes_funny_goblin_mask" onclick="mark_checked(this)">Funny Goblin Mask</div>
+    <div class="item-box" id="clothes_funny_lizard_mask" onclick="mark_checked(this)">Funny Lizard Mask</div>
+    <div class="item-box" id="clothes_funny_servbot_mask" onclick="mark_checked(this)">Funny Servbot Mask</div>
+    <div class="item-box" id="clothes_funny_zombie_mask" onclick="mark_checked(this)">Funny Zombie Mask</div>
+    <div class="item-box" id="clothes_go-go_boots" onclick="mark_checked(this)">Go-go Boots</div>
+    <div class="item-box" id="clothes_grey_hair" onclick="mark_checked(this)">Grey Hair</div>
+    <div class="item-box" id="clothes_hawaiian_holiday_gear" onclick="mark_checked(this)">Hawaiian Holiday Gear</div>
+    <div class="item-box" id="clothes_highbrow_ensemble" onclick="mark_checked(this)">Highbrow Ensemble</div>
+    <div class="item-box" id="clothes_hip_hop_outfit" onclick="mark_checked(this)">Hip Hop Outfit</div>
+    <div class="item-box" id="clothes_hocky_mask" onclick="mark_checked(this)">Hocky Mask</div>
+    <div class="item-box" id="clothes_hula_dress" onclick="mark_checked(this)">Hula Dress</div>
+    <div class="item-box" id="clothes_hygiene_mask" onclick="mark_checked(this)">Hygiene Mask</div>
+    <div class="item-box" id="clothes_kid's_super_hero_boots" onclick="mark_checked(this)">Kid's Super Hero Boots</div>
+    <div class="item-box" id="clothes_kid's_super_hero_costume" onclick="mark_checked(this)">Kid's Super Hero Costume</div>
+    <div class="item-box" id="clothes_kid's_super_hero_eye_mask" onclick="mark_checked(this)">Kid's Super Hero Eye Mask</div>
+    <div class="item-box" id="clothes_knight_armor" onclick="mark_checked(this)">Knight Armor</div>
+    <div class="item-box" id="clothes_knight_boots" onclick="mark_checked(this)">Knight Boots</div>
+    <div class="item-box" id="clothes_knight_helmet" onclick="mark_checked(this)">Knight Helmet</div>
+    <div class="item-box" id="clothes_knit_cap" onclick="mark_checked(this)">Knit Cap</div>
+    <div class="item-box" id="clothes_knotted_top_cutoffs" onclick="mark_checked(this)">Knotted Top Cutoffs</div>
+    <div class="item-box" id="clothes_ladies_hat" onclick="mark_checked(this)">Ladies Hat</div>
+    <div class="item-box" id="clothes_loud_summer_special" onclick="mark_checked(this)">Loud Summer Special</div>
+    <div class="item-box" id="clothes_mesh_party_wear" onclick="mark_checked(this)">Mesh Party Wear</div>
+    <div class="item-box" id="clothes_mid-length_t-shirt_jeans" onclick="mark_checked(this)">Mid-Length T-shirt Jeans</div>
+    <div class="item-box" id="clothes_mohawk_hair" onclick="mark_checked(this)">Mohawk Hair</div>
+    <div class="item-box" id="clothes_novelty_glasses" onclick="mark_checked(this)">Novelty Glasses</div>
+    <div class="item-box" id="clothes_one-piece_pajama" onclick="mark_checked(this)">One-Piece Pajama</div>
+    <div class="item-box" id="clothes_orange_prison_outfit" onclick="mark_checked(this)">Orange Prison Outfit</div>
+    <div class="item-box" id="clothes_pink_hair" onclick="mark_checked(this)">Pink Hair</div>
+    <div class="item-box" id="clothes_plaid_suit" onclick="mark_checked(this)">Plaid Suit</div>
+    <div class="item-box" id="clothes_polo_shirt_blue_jeans" onclick="mark_checked(this)">Polo Shirt Blue Jeans</div>
+    <div class="item-box" id="clothes_rocker_glasses" onclick="mark_checked(this)">Rocker Glasses</div>
+    <div class="item-box" id="clothes_russian_hat" onclick="mark_checked(this)">Russian Hat</div>
+    <div class="item-box" id="clothes_sandals" onclick="mark_checked(this)">Sandals</div>
+    <div class="item-box" id="clothes_shaved_head" onclick="mark_checked(this)">Shaved Head</div>
+    <div class="item-box" id="clothes_show_girl_head_piece" onclick="mark_checked(this)">Show Girl Head PIece</div>
+    <div class="item-box" id="clothes_skater_outfit" onclick="mark_checked(this)">Skater Outfit</div>
+    <div class="item-box" id="clothes_sport_glasses" onclick="mark_checked(this)">Sport Glasses</div>
+    <div class="item-box" id="clothes_sporty_track_suit" onclick="mark_checked(this)">Sporty Track Suit</div>
+    <div class="item-box" id="clothes_summer_dress" onclick="mark_checked(this)">Summer Dress</div>
+    <div class="item-box" id="clothes_surf_wetsuit" onclick="mark_checked(this)">Surf Wetsuit</div>
+    <div class="item-box" id="clothes_swat_helmet" onclick="mark_checked(this)">Swat Helmet</div>
+    <div class="item-box" id="clothes_swat_outfit" onclick="mark_checked(this)">Swat Outfit</div>
+    <div class="item-box" id="clothes_tattered_clothes" onclick="mark_checked(this)">Tattered Clothes</div>
+    <div class="item-box" id="clothes_tennis_head_band" onclick="mark_checked(this)">Tennis Head Band</div>
+    <div class="item-box" id="clothes_tennis_outfit" onclick="mark_checked(this)">Tennis outfit</div>
+    <div class="item-box" id="clothes_tir_helmet" onclick="mark_checked(this)">TIR Helmet</div>
+    <div class="item-box" id="clothes_tir_outfit" onclick="mark_checked(this)">TIR Outfit</div>
+    <div class="item-box" id="clothes_tir_uniform" onclick="mark_checked(this)">TIR Uniform</div>
+    <div class="item-box" id="clothes_toddler_outfit" onclick="mark_checked(this)">Toddler Outfit</div>
+    <div class="item-box" id="clothes_tourist_boat" onclick="mark_checked(this)">Tourist Boat</div>
+    <div class="item-box" id="clothes_tube_top_mini_skirt" onclick="mark_checked(this)">Tube Top Mini Skirt</div>
+    <div class="item-box" id="clothes_tuxedo" onclick="mark_checked(this)">Tuxedo</div>
+    <div class="item-box" id="clothes_underwear" onclick="mark_checked(this)">Underwear</div>
+    <div class="item-box" id="clothes_white_cowboy_boots" onclick="mark_checked(this)">White Cowboy Boots</div>
+    <div class="item-box" id="clothes_white_cowboy_hat" onclick="mark_checked(this)">White Cowboy Hat</div>
+    <div class="item-box" id="clothes_white_cowboy_outfit" onclick="mark_checked(this)">White Cowboy Outfit</div>
+    <div class="item-box" id="clothes_white_leisure_suit" onclick="mark_checked(this)">White Leisure Suit</div>
+    <div class="item-box" id="clothes_white_low_heels" onclick="mark_checked(this)">White Low Heels</div>
+    <div class="item-box" id="clothes_white_tennis_shoes" onclick="mark_checked(this)">White Tennis Shoes</div>
+    <div class="item-box" id="clothes_wild_frontier_hat" onclick="mark_checked(this)">Wild Frontier Hat</div>
+    <div class="item-box" id="clothes_willamette_mall_security_uniform" onclick="mark_checked(this)">Willamette Mall Security Uniform</div>
+    <div class="item-box" id="clothes_yellow_sneakers" onclick="mark_checked(this)">Yellow Sneakers</div>
+    <div class="item-box" id="clothes_yellow_tinted_glasses" onclick="mark_checked(this)">Yellow Tinted Glasses</div>
+    <div class="item-box" id="clothes_yellow_track_suit" onclick="mark_checked(this)">Yellow Track Suit</div>
+    <div class="item-box" id="clothes_" onclick="mark_checked(this)"></div>
+  </div>
+
+  <h2 id="food">Food</h2>
+  <p style="padding:5px;"><b>Finally Full</b> - Eat all types of food.</p>
+  <div class="box-holder">
+    <div class="item-box" id="food_apple" onclick="mark_checked(this)">Apple</div>
+    <div class="item-box" id="food_bacon" onclick="mark_checked(this)">Bacon</div>
+    <div class="item-box" id="food_baked_potato" onclick="mark_checked(this)">Baked Potato</div>
+    <div class="item-box" id="food_bbq_chicken" onclick="mark_checked(this)">BBQ Chicken</div>
+    <div class="item-box" id="food_bbq_ribs" onclick="mark_checked(this)">BBQ Ribs</div>
+    <div class="item-box" id="food_beans" onclick="mark_checked(this)">Beans</div>
+    <div class="item-box" id="food_beer" onclick="mark_checked(this)">Beer</div>
+    <div class="item-box" id="food_brownie" onclick="mark_checked(this)">Brownie</div>
+    <div class="item-box" id="food_burrito" onclick="mark_checked(this)">Burrito</div>
+    <div class="item-box" id="food_cake" onclick="mark_checked(this)">Cake</div>
+    <div class="item-box" id="food_chili" onclick="mark_checked(this)">Chili</div>
+    <div class="item-box" id="food_coffee" onclick="mark_checked(this)">Coffee</div>
+    <div class="item-box" id="food_coffee_creamer" onclick="mark_checked(this)">Coffee Creamer</div>
+    <div class="item-box" id="food_cookies" onclick="mark_checked(this)">Cookies</div>
+    <div class="item-box" id="food_donut" onclick="mark_checked(this)">Donut</div>
+    <div class="item-box" id="food_cocktail" onclick="mark_checked(this)">Cocktail</div>
+    <div class="item-box" id="food_fish" onclick="mark_checked(this)">Fish</div>
+    <div class="item-box" id="food_fries" onclick="mark_checked(this)">Fries</div>
+    <div class="item-box" id="food_hamburger" onclick="mark_checked(this)">Hamburger</div>
+    <div class="item-box" id="food_hot_dog" onclick="mark_checked(this)">Hot Dog</div>
+    <div class="item-box" id="food_ice_cream" onclick="mark_checked(this)">Ice Cream</div>
+    <div class="item-box" id="food_jellybeans" onclick="mark_checked(this)">Jellybeans</div>
+    <div class="item-box" id="food_large_soda" onclick="mark_checked(this)">Large Soda</div>
+    <div class="item-box" id="food_lobster" onclick="mark_checked(this)">Lobster</div>
+    <div class="item-box" id="food_melon" onclick="mark_checked(this)">Melon</div>
+    <div class="item-box" id="food_milk" onclick="mark_checked(this)">Milk</div>
+    <div class="item-box" id="food_onion_rings" onclick="mark_checked(this)">Onion Rings</div>
+    <div class="item-box" id="food_orange_juice" onclick="mark_checked(this)">Orange Juice</div>
+    <div class="item-box" id="food_pasta" onclick="mark_checked(this)">Pasta</div>
+    <div class="item-box" id="food_pie" onclick="mark_checked(this)">Pie</div>
+    <div class="item-box" id="food_pineapple" onclick="mark_checked(this)">Pineapple</div>
+    <div class="item-box" id="food_pizza" onclick="mark_checked(this)">Pizza</div>
+    <div class="item-box" id="food_snack" onclick="mark_checked(this)">Snack</div>
+    <div class="item-box" id="food_spoiled_hamburger" onclick="mark_checked(this)">Spoiled Hamburger</div>
+    <div class="item-box" id="food_steak" onclick="mark_checked(this)">Steak</div>
+    <div class="item-box" id="food_sushi" onclick="mark_checked(this)">Sushi</div>
+    <div class="item-box" id="food_taco" onclick="mark_checked(this)">Taco</div>
+    <div class="item-box" id="food_vodka" onclick="mark_checked(this)">Vodka</div>
+    <div class="item-box" id="food_whiskey" onclick="mark_checked(this)">Whiskey</div>
+    <div class="item-box" id="food_wine" onclick="mark_checked(this)">Wine</div>
+  </div>
   <h4>Jump to...</h4>
-  <a href="#melee">Melee Weapons</a>
-  <a href="#ranged">Ranged Weapons</a>
-  <a href="#explosive">Explosive Weapons</a>
-  <a href="#novelty">Novelty Weapons</a>
+  <a href="#melee">Melee</a>
+  <a href="#ranged">Ranged</a>
+  <a href="#explosive">Explosives</a>
+  <a href="#novelty">Novelty</a>
+  <a href="#clothes">Clothes</a>
+  <a href="#food">Food</a>
 </body>
 <!-- <script src="storage.js"></script> -->
 <!-- <script src="javaclick.js"></script> -->
