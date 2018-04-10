@@ -44,6 +44,13 @@ h2 {
   /* display: inline-block; */
 }
 
+#novelty-holder {
+  max-height: 500px;
+}
+#food-holder {
+  max-height: 500px;
+}
+
 @media screen and (min-resolution: 100dpi) {
   .item-box {
     width: 45%;
@@ -53,6 +60,18 @@ h2 {
   .box-holder {
     width: 100%;
     max-height: 3000px;
+  }
+  #ranged-holder {
+    max-height: 1000px;
+  }
+  #explosives-holder {
+    max-height: 500px;
+  }
+  #novelty-holder {
+    max-height: 2000px;
+  }
+  #food-holder {
+    max-height: 1900px;
   }
   a {
     display: block;
