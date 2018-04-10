@@ -4,9 +4,15 @@
 }
 
 body {
-  background-color: #eeeeee;
+  /* background-color: #eeeeee; */
 }
 
+a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 20px;
+  color: #0060B6;
+}
 .box-holder {
   width: 1000px;
   font-size: 0px;
