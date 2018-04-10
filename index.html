@@ -2,17 +2,47 @@
 
 <html>
 
+<head>
+  <link rel='stylesheet' type='text/css' href='style.css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+
 <body>
 
-<h1>Hello World</h1>
-
-<p>I'm hosted with GitHub Pages.</p>
-<div>
-<input type="checkbox">
-<span>TestTestTest</span>
-</div>
-<li data-id="melee_1"><input type="checkbox" id="playthrough_17_2">Test Thing</li>
+  <h1>Jank's Dead Rising 2 Checklist</h1>
+  <p>
+    Here's a big ol' checklist to help out with the achievements in Dead Rising 2. Progress is saved so you can close the browser and come back to it.
+  </p>
+  <h3>TO DO:</h3>
+  <li>'Clear All Checked' button</li>
+  <li>'Hide Checked' button</li>
+  <li>Collapsable sections for melee/ranged/explosives</li>
+  <div>
+    <div>
+      <li><input type="checkbox" id="weap_0" onclick="mark_checked(this)">Weapon 0</li>
+      <li><input type="checkbox" id="weap_1" onclick="mark_checked(this)">Weapon 1</li>
+      <li><input type="checkbox" id="weap_2" onclick="mark_checked(this)">Weapon 2</li>
+      <li><input type="checkbox" id="weap_3" onclick="mark_checked(this)">Weapon 3</li>
+      <li><input type="checkbox" id="weap_4" onclick="mark_checked(this)">Weapon 4</li>
+      <li><input type="checkbox" id="weap_5" onclick="mark_checked(this)">Weapon 5</li>
+      <li><input type="checkbox" id="weap_6" onclick="mark_checked(this)">Weapon 6</li>
+      <li><input type="checkbox" id="weap_7" onclick="mark_checked(this)">Weapon 7</li>
+      <li><input type="checkbox" id="weap_8" onclick="mark_checked(this)">Weapon 8</li>
+      <li><input type="checkbox" id="weap_9" onclick="mark_checked(this)">Weapon 9</li>
+      <li><input type="checkbox" id="weap_10" onclick="mark_checked(this)">Weapon 10</li>
+      <li><input type="checkbox" id="weap_11" onclick="mark_checked(this)">Weapon 11</li>
+      <li><input type="checkbox" id="weap_12" onclick="mark_checked(this)">Weapon 12</li>
+      <li><input type="checkbox" id="weap_13" onclick="mark_checked(this)">Weapon 13</li>
+      <li><input type="checkbox" id="weap_14" onclick="mark_checked(this)">Weapon 14</li>
+      <li><input type="checkbox" id="weap_15" onclick="mark_checked(this)">Weapon 15</li>
+      <li><input type="checkbox" id="weap_16" onclick="mark_checked(this)">Weapon 16</li>
+      <li><input type="checkbox" id="weap_17" onclick="mark_checked(this)">Weapon 17</li>
+      <li><input type="checkbox" id="weap_18" onclick="mark_checked(this)">Weapon 18</li>
+      <li><input type="checkbox" id="weap_19" onclick="mark_checked(this)">Weapon 19</li>
+    </div>
+    <!-- <li data-id="melee_1"><input type="checkbox" id="weap_1" onclick="thing(this)">Test Thing</li> -->
 </body>
-<script src="storage.js"></script>
-<!-- <script src="https://cdn.rawgit.com/andris9/jStorage/v0.4.12/jstorage.min.js"></script> -->
+<!-- <script src="storage.js"></script> -->
+<script src="javaclick.js"></script>
+
 </html>
