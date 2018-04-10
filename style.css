@@ -18,7 +18,7 @@ h2 {
   padding: 30px 5px 0px;
 }
 .box-holder {
-  width: 1000px;
+  /* width: 1000px; */
   font-size: 0px;
   display: flex;
   flex-flow: column wrap;
