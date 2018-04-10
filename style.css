@@ -7,6 +7,10 @@ body {
   background-color: #eeeeee;
 }
 
+.box-holder {
+  font-size: 0px;
+}
+
 .item-box {
   /* Disable text selection so there's no accidentally highlighting */
   -webkit-touch-callout: none; /* iOS Safari */
