@@ -33,10 +33,11 @@
   <a href="#novelty">Novelty</a>
   <a href="#clothes">Clothes</a>
   <a href="#food">Food</a>
-  <h3>Click on an item to mark it off</h3>
-  <h2 id="melee" style="padding: 5px 5px 0;">Melee Weapons</h2>
+  <h3>Click on an item to mark it off.</h3>
+  <h3>Click on a header to collapse that category.</h3>
+  <h2 id="melee" style="padding: 5px 5px 0;" onclick="hide_thing(this)">Melee Weapons</h2>
   <p style="padding:5px;"><b>Head Trauma</b> - Use every type of melee weapon on a zombie. Killing is <b><u>not</u></b> reqiured.</p>
-  <div class="box-holder">
+  <div class="box-holder" id="melee-holder">
     <div class="item-box" id="melee_2x4" onclick="mark_checked(this)">2x4</div>
     <div class="item-box" id="melee_acoustic_guitar" onclick="mark_checked(this)">Acoustic Guitar</div>
     <div class="item-box" id="melee_ad_board" onclick="mark_checked(this)">Ad Board</div>
@@ -187,7 +188,7 @@
     <div class="item-box" id="melee_yellow_tall_chair" onclick="mark_checked(this)">Yellow Tall Chair</div>
     <!-- <li data-id="melee_1"><input type="checkbox" id="weap_1" onclick="thing(this)">Test Thing</li> -->
   </div>
-  <h2 id="ranged">Ranged Weapons</h2>
+  <h2 id="ranged" onclick="hide_thing(this)">Ranged Weapons</h2>
   <p style="padding:5px;"><b>Death From Afar</b> - Use every type of ranged weapon on a zombie. Killing is <b><u>not</u></b> reqiured.</p>
   <div class="box-holder" id="ranged-holder">
     <div class="item-box" id="ranged_basketball" onclick="mark_checked(this)">Basketball</div>
@@ -205,7 +206,7 @@
     <div class="item-box" id="ranged_tennis_racquet" onclick="mark_checked(this)">Tennis Racquet</div>
     <div class="item-box" id="ranged_vinyl_records" onclick="mark_checked(this)">Vinyl Records</div>
   </div>
-  <h2 id="explosive">Explosive Weapons</h2>
+  <h2 id="explosives" onclick="hide_thing(this)">Explosive Weapons</h2>
   <p style="padding:5px;"><b>Explosive Temper</b> - Use every type of explosive weapon on a zombie. Killing <b><u>is</u></b> required.</p>
   <div class="box-holder" id="explosives-holder">
     <div class="item-box" id="explosive_acetylene_tank" onclick="mark_checked(this)">Acetylene Tank</div>
@@ -215,7 +216,7 @@
     <div class="item-box" id="explosive_propane_tank" onclick="mark_checked(this)">Propane Tank</div>
     <div class="item-box" id="explosive_rocket_fireworks" onclick="mark_checked(this)">Rocket Fireworks</div>
   </div>
-  <h2 id="novelty">Novelty Weapons</h2>
+  <h2 id="novelty" onclick="hide_thing(this)">Novelty Weapons</h2>
   <p style="padding:5px;"><b>Slaughter - S = Laughter</b> - Use every type of novelty weapon on a zombie. Killing is <b><u>not</u></b> reqiured.</p>
   <div class="box-holder" id="novelty-holder">
     <div class="item-box" id="novelty_bag_of_marbles" onclick="mark_checked(this)">Bag of Marbles</div>
@@ -257,7 +258,7 @@
     <div class="item-box" id="novelty_whipped_cream" onclick="mark_checked(this)">Whipped Cream</div>
     <div class="item-box" id="novelty_zombie_mask" onclick="mark_checked(this)">Zombie Mask</div>
   </div>
-  <h2 id="clothes">Clothes</h2>
+  <h2 id="clothes" onclick="hide_thing(this)">Clothes</h2>
   <p style="padding:5px;"><b>Chuck Greene: Cross Dresser?</b> - Change into all clothes.</p>
   <div class="box-holder" id="clothes-holder">
     <div class="item-box" id="clothes_american_showman_helmet" onclick="mark_checked(this)">American Showman Helmet</div>
@@ -352,7 +353,7 @@
     <div class="item-box" id="clothes_tir_outfit" onclick="mark_checked(this)">TIR Outfit</div>
     <div class="item-box" id="clothes_tir_uniform" onclick="mark_checked(this)">TIR Uniform</div>
     <div class="item-box" id="clothes_toddler_outfit" onclick="mark_checked(this)">Toddler Outfit</div>
-    <div class="item-box" id="clothes_tourist_boat" onclick="mark_checked(this)">Tourist Boat</div>
+    <div class="item-box" id="clothes_tourist_boat" onclick="mark_checked(this)">Tourist Boat Hat</div>
     <div class="item-box" id="clothes_tube_top_mini_skirt" onclick="mark_checked(this)">Tube Top Mini Skirt</div>
     <div class="item-box" id="clothes_tuxedo" onclick="mark_checked(this)">Tuxedo</div>
     <div class="item-box" id="clothes_underwear" onclick="mark_checked(this)">Underwear</div>
@@ -369,7 +370,7 @@
     <div class="item-box" id="clothes_yellow_track_suit" onclick="mark_checked(this)">Yellow Track Suit</div>
   </div>
 
-  <h2 id="food">Food</h2>
+  <h2 id="food" onclick="hide_thing(this)">Food</h2>
   <p style="padding:5px;"><b>Finally Full</b> - Eat all types of food.</p>
   <div class="box-holder" id="food-holder">
     <div class="item-box" id="food_apple" onclick="mark_checked(this)">Apple</div>

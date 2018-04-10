@@ -11,7 +11,7 @@ function populate_checks() {
   }
 }
 
-function mark_checked(item){
+function mark_checked(item) {
   // Store checkbox changes in local storage
   if (localStorage.getItem(item.id) === null) {
     localStorage.setItem(item.id, true);
@@ -25,7 +25,7 @@ function mark_checked(item){
   }
 }
 
-function toggle_hide(){
+function toggle_hide() {
   // Toggle hiding of checked items
   var boxes = document.querySelectorAll("div[class=item-box]");
   if (localStorage.getItem("hide_checked") === null) {
@@ -42,6 +42,15 @@ function toggle_hide(){
         boxes[i].style.display = "block";
       }
     }
+  }
+}
+
+function hide_thing(name) {
+  var mainthing = document.getElementById(name.id + "-holder");
+  if (mainthing.style.display === "none") {
+    mainthing.style.display = "flex";
+  } else {
+    mainthing.style.display = "none";
   }
 }
 
