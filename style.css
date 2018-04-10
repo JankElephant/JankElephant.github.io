@@ -13,6 +13,7 @@ a {
   margin: 0 20px;
   color: #0060B6;
 }
+
 .box-holder {
   width: 1000px;
   font-size: 0px;
@@ -40,12 +41,16 @@ a {
   /* display: inline-block; */
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .item-box {
     width: 45%;
+    font-size: 30px;
   }
   .box-holder {
     width: 100%;
     max-height: 3000px;
+  }
+  a {
+    font-size: 30px;
   }
 }
