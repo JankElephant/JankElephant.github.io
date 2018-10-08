@@ -47,10 +47,25 @@ function toggle_hide() {
 
 function hide_thing(name) {
   var mainthing = document.getElementById(name.id + "-holder");
-  if (mainthing.style.display === "none") {
-    mainthing.style.display = "flex";
+  var descline = document.getElementById(name.id + "descript");
+  // console.log(mainthing);
+  name.classList.toggle("active");
+  // if (mainthing.style.display === "none") {
+  // console.log(mainthing.style.maxHeight);
+  if (mainthing.style.maxHeight === "0px") {
+    // mainthing.style.display = "block";
+    mainthing.style.overflow = "visible";
+    mainthing.style.maxHeight = "100%";
+    // mainthing.style.margin = "0"''
+    descline.style.display = "block";
+    // mainthing.style.margin = "0 0 50px 0";
   } else {
-    mainthing.style.display = "none";
+    // mainthing.style.display = "none";
+    // mainthing.style.margin = "0";
+    mainthing.style.maxHeight = "0px";
+    mainthing.style.overflow = "hidden";
+
+    descline.style.display = "none";
   }
 }
 
