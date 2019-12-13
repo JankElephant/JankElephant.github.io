@@ -19,10 +19,10 @@ Good tinkering lad of the [Tinklebottom Family](#Tinklebottom-Clan). Named after
 ### Paw Paw
 Oldest member of the [Tinklebottoms](#Tinklebottom-Clan). Has some magic boots. He spends most of his time excavating and studying [The Nautilus](#The-Nautilus).
 
-### Skye & Arlo
+### Skye &amp; Arlo
 Parents to most of the [Tinklebottoms](#Tinklebottom-Clan). Skye is a human woman, Arlo is an ever-shrinking gnome man. [Paw Paw](#Paw-Paw) is Arlo's dad. The rest of the Tinklebottoms are their children. They don't do much of the dealings with their drug deal. They're usually in their room near the top of the cave-tower, making more Tinklebottoms.
 
-### Avery & Lily
+### Avery &amp; Lily
 Avery and Lily work in the research lab that researches more than just drugs, probably. They're also the house doctors. They've figured out some things, probably.
 
 # Places
