@@ -28,7 +28,7 @@ Avery and Lily work in the research lab that researches more than just drugs, pr
 # Places
 ### Tinklebottom Cove
 Underneath the [Tinklebottom](#Tinklebottom-Clan) cabbage farm north of [Thaumewren](#Thaumewren) is a big ol' cave.
-In this cave the [Tinklebottom](#Tinklebottom-Clan) clan works to grow their [silverweed](#Silverweed) empire.
+In this cave the [Tinklebottom clan](#Tinklebottom-Clan) works to grow their [silverweed](#Silverweed) empire.
 #### Chemical Lab
 #### Magical Test Arena
 #### Paw Paw's Cave
