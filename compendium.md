@@ -43,7 +43,7 @@ Big ol' ship stuck in [Tinklebottom Cove](#Tinklebottom-Cove)
 ### Tinklebottom Clan
 Patriarchal gnome family from [Thaumewren](#Thaumewren). They live in a house in a cave and do lots of [silverweed](#Silverweed).
 The oldest member is [Paw Paw](#Paw-Paw).
-Other members are [Skye & Arlo](#Skye-&-Arlo), [Davey](#Davey-Tinklebottom), [Jonesy & Riley](Jonesy-&-Riley), [Cookie & Dinna](#Cookie-&-Dinna), etc.
+Other members are [Skye & Arlo](#Skye-&amp;-Arlo), [Davey](#Davey-Tinklebottom), [Jonesy & Riley](Jonesy-&amp;-Riley), [Cookie & Dinna](#Cookie-&amp;-Dinna), etc.
 
 # Things
 ### Silverweed
