@@ -22,7 +22,7 @@ Oldest member of the [Tinklebottoms](#Tinklebottom-Clan). Has some magic boots. 
 ### Skye &amp; Arlo
 Parents to most of the [Tinklebottoms](#Tinklebottom-Clan). Skye is a human woman, Arlo is an ever-shrinking gnome man. [Paw Paw](#Paw-Paw) is Arlo's dad. The rest of the Tinklebottoms are their children. They don't do much of the dealings with their drug deal. They're usually in their room near the top of the cave-tower, making more Tinklebottoms.
 
-### Avery &amp; Lily
+### Avery & Lily
 Avery and Lily work in the research lab that researches more than just drugs, probably. They're also the house doctors. They've figured out some things, probably.
 
 # Places
