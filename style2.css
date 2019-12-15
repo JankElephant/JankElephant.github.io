@@ -138,6 +138,9 @@ h2 {
     font-size: 30px;
     height: 80px;
   }
+  .svg-width {
+    width: 40px;
+  }
   /* .sectionheader {
     width: 90%;
     font-size: 30px;
