@@ -1,0 +1,103 @@
+* {
+  font-family: Roboto;
+  /* font-size: 0px; */
+  color: #FFFFFF;
+  -webkit-transition: width 2s; /* Safari prior 6.1 */
+  transition: width 2s;
+}
+
+body {
+  background-color: #284182;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 20px;
+  color: #EEEEEE;
+}
+
+.cardblock {
+  padding: 10px;
+  /* margin: 10px; */
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FFFFFF;
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #AAAAAA;
+}
+
+/* input[type=text] {
+  margin: 0px 0px 0px 20px;
+  padding: 15px;
+  font-size: 30px;
+  background-color: #253C77;
+  border-style: none;
+} */
+
+.cardtext {
+  /* width: 70%; */
+  /* margin: 0px 0px 0px 0px; */
+  padding: 5px 10px 5px 10px;
+  font-size: 30px;
+  background-color: #253C77;
+  border-style: none;
+  border-radius: 10px;
+}
+/* 385082
+253C77
+284182
+*/
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  /* display: none; */
+  overflow: hidden;
+  background-color: #f1f1f1;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+:focus {
+  outline: 0;
+}
+input[type=text] {
+  transition: background-color 0.2s ease-in-out;
+}
+
+input:focus {
+  /* outline: solid; */
+  box-shadow: 0 0 3pt 2pt #7F92FF;
+}
+input[type=text]:focus {
+
+}
+input[type=text]:hover {
+  background-color: #21376B;
+}
+::placeholder {
+  color: #EAEAF2;
+}
