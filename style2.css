@@ -94,6 +94,10 @@ h2 {
   width: 25px;
 }
 
+.svg-width:hover {
+  cursor: pointer;
+}
+
 .right-svg {
   float: right;
   margin: 0 10px;
@@ -135,6 +139,17 @@ h2 {
   .tab-thing {
     font-size: 30px;
     height: 80px;
+  }
+  .svg-width {
+    width: 40px;
+  }
+  .character-box {
+    padding: 15px;
+    margin: 30px 15px;
+    /* background-color: #E2E2E2; */
+    background-color: #fafafa;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px -3px black;
   }
   /* .sectionheader {
     width: 90%;
