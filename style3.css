@@ -1,0 +1,117 @@
+* {
+  font-family: Roboto;
+  /* font-size: 0px; */
+}
+
+body {
+  /* background-color: #eeeeee; */
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 20px;
+  color: #0060B6;
+}
+
+.box-holder {
+  /* width: 1000px; */
+  font-size: 0px;
+  /* display: flex; */
+  /* flex-flow: column wrap; */
+  /* max-height: 1000px; */
+}
+
+.mainbox {
+  /* max-height: 1000px; */
+  /* overflow: visible; */
+  /* margin: 0 0 50px 0; */
+  transition: max-height 0.5s ease-in-out;
+}
+.sectionheader {
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+  width: 40%;
+  padding: 10px 15px 10px;
+  border-radius: 3px;
+
+  /* Disable text selection so there's no accidentally highlighting */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+
+.sectionheader::after {
+  content: "\002B";
+  float: right;
+}
+
+.item-box {
+  /* Disable text selection so there's no accidentally highlighting */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+
+  cursor: pointer;
+  background-color: #dddddd;
+  width: 30%;
+  padding: 8px 15px;
+  margin: 1px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+/* #novelty-holder {
+  max-height: 500px;
+}
+#food-holder {
+  max-height: 500px;
+} */
+
+.descript {
+  padding: 5px;
+}
+
+@media screen and (min-resolution: 100dpi) {
+  .sectionheader {
+    width: 90%;
+    font-size: 30px;
+  }
+  .item-box {
+    width: 42%;
+    font-size: 38px;
+    padding: 50px 30px;
+  }
+  .box-holder {
+    width: 100%;
+    /* max-height: 3000px; */
+  }
+  /* #ranged-holder {
+    max-height: 1000px;
+  }
+  #explosives-holder {
+    max-height: 500px;
+  }
+  #novelty-holder {
+    max-height: 2000px;
+  }
+  #food-holder {
+    max-height: 1900px;
+  } */
+  a {
+    display: block;
+    font-size: 50px;
+  }
+}
