@@ -11,8 +11,9 @@
 </head>
 
 <body style="background-color: black;">
-  <h1 style="color: white; padding: 20px; text-align: center;">Time until Bannerlord:</h1>
-  <p style="color: white; padding: 10px; text-align: center;" id="demo"></p>
+  <h1 style="color: white; padding: 20px; text-align: center;">It's almost harvesting season...</h1>
+  <p style="color: white; font-size: 30px; ; text-align: center;" id="demo"></p>
+  <h1 style="color: white; text-align: center;">until Bannerlord</h1>
   </div>
 </body>
 
@@ -39,8 +40,8 @@
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
-      minutes + "m " + seconds + "s ";
+    document.getElementById("demo").innerHTML = days + " days<br>" + hours + " hours<br>" +
+      minutes + " minutes<br>and " + seconds + " seconds";
 
     // If the count down is finished, write some text
     if (distance < 0) {
