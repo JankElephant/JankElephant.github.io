@@ -1,0 +1,87 @@
+* {
+  font-family: Roboto;
+  /* font-size: 0px; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: #eeeeee; */
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+  color: #0060B6;
+}
+
+.flexy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+  outline: none;
+}
+
+.walletchangebutton {
+  /* position: absolute; */
+  /* top: 25%; */
+  font-size: 100%;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 20px;
+  border-style: dashed;
+  border-color: black;
+  border-width: 2px;
+  height: 50px;
+  /* vertical-align: middle; */
+  width: 200px;
+}
+
+.column {
+  float: left;
+  /* padding: 5px; */
+  height: 80px;
+  text-align: center;
+  /* border-radius: 5px; */
+  /* margin: 5px; */
+}
+
+.left, .right {
+  width: 33%;
+  border-style: solid;
+  border-width: 2px 0 0 0;
+}
+
+.left {
+  border-width: 2px 0 0 2px;
+}
+
+.right {
+  border-width: 2px 2px 0 0;
+}
+
+.bottom {
+  border-bottom-width: 2px;
+}
+.middle {
+  width: 30%;
+  border-style: solid;
+  border-width: 2px 0 0 0;
+}
+
+.row {
+
+}
+
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
